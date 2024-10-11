@@ -1,0 +1,44 @@
+body {
+    margin: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    width: 10%;
+    background-color: #cecccc;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+}
+li{
+    display: contents;
+    border: 1px solid #ccc;
+
+    outline: auto;
+}
+
+li a {
+    width: 65%;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    margin: 8px 8px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    border: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    padding: 10px 18px;
+    background-color: #555;
+    color: white;
+}

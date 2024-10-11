@@ -1,0 +1,94 @@
+#acd-login{
+    background-color: #605e5e;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: calc(3% - 5px);
+    margin-left: calc(5% - 5px);
+    width: calc(45% - 5px);
+    height: calc(100% - 5px);
+    box-sizing: border-box;
+}#form-login{
+     border: 2px solid green;
+     width: calc(70% - 5px);
+     margin-left: calc(11% - 5px);
+     margin-top: calc(5% - 5px);
+     margin-bottom: calc(5% - 5px);
+     height: calc(100% - 5px);
+    padding: 5px;
+
+ }
+#store-header{
+    color: white;
+    font-size: 42px;
+    font-family: Calibri;
+    text-align: center;
+ }
+ .user-info{
+     color: white;
+     font-size: 24px;
+     font-family: Calibri;
+     text-align: center;
+     padding: 18px;
+     
+ }
+input[type=text], input[type=password] {
+    width: calc(70% - 30px);
+    padding: 10px 15px;
+    margin: 12px 0px;
+    display: inline-block; 
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}select{
+    /*margin-left: 30px;*/
+     width: 100%;
+     text-align: left;
+     padding: 10px 8px;
+     margin: 10px 0;
+     display: inline-block;
+     border: 2px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+ }#custom-select{
+       /*padding: 0 30px;*/
+       margin-left: 70px;
+       margin-right: 55px;
+   }
+#login{
+    margin: 10px 10px;
+}
+
+#login-button{
+     margin: 0 100px;
+     float: left;
+ }
+ button{
+     /*width: 5%;*/
+     padding: 10px 10px;
+     margin: 8px 8px;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     background-color: #4CAF50;
+     color: white;
+     cursor: pointer;
+ }
+button:hover {
+    background-color: #215223;
+}
+
+
+/*#login{
+    margin: 50px 300px;
+}#login-button{
+    float: left;
+ }
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select select {
+    display: none; !*hide original SELECT element: *!
+}*/
